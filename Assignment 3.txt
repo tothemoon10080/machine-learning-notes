@@ -1,7 +1,7 @@
 1.	Pick a data set of your choice, either form UCI or another place. Apply PCA and manifold learning to it. You can use the python code given in class. How do the method compare? 
 You can use 2 components so that you can visualize the comparison.  
   
-    dataset = 
+    dataset = MNIST：这是一个手写数字识别数据集，包含了大量的手写数字图像，每个图像都标记有相应的标签。
   
     PCA（Principal Component Analysis，主成分分析）是一种常用的降维技术，用于减少数据的维度，并提取出数据中最重要的特征。
     PCA的目标是通过线性变换将原始数据映射到一个新的坐标系，使得在新的坐标系下数据的方差最大化。它通过找到原始数据中最主要的方差方向，即主成分，来实现降维。
